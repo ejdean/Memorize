@@ -19,7 +19,7 @@ struct EmojiMemoryGameView: View {
                     }
                 }
                 .padding()
-                .foregroundColor(Color.orange)
+                .foregroundColor(Color.blue)
                 .font(Font.largeTitle)
     }
 }
