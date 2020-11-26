@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-                VStack {
+                HStack {
                     ForEach(0..<4) { index in
                         CardView(isFaceUp: false)
                 }
